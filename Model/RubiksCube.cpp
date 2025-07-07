@@ -1,7 +1,3 @@
-//
-// Created by Shubham Patil on 17/12/21.
-//
-
 #include "RubiksCube.h"
 
 //
@@ -68,10 +64,6 @@ string RubiksCube::getMove(MOVE ind) {
             return "B2";
     }
 }
-
-/*
- * Perform a move operation on using a Move index.
- */
 RubiksCube &RubiksCube::move(MOVE ind) {
     switch (ind) {
         case MOVE::L:
